@@ -8,11 +8,6 @@
   justify-content: space-evenly;
 }
 
-/* Неизвестно */
-.header__menu {
-
-}
-
 .header__links-list {
   display: flex;
   gap: 32px;
@@ -343,11 +338,8 @@ main {
   font-size: 18px;
   line-height: 1.35;
 }
-
-.footer__social-link {
-
-}
-
+ 
 .footer__social-icon {
   width: 50px;
+  height: auto;
 }
