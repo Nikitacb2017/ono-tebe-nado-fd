@@ -147,7 +147,7 @@ main {
   font-size: 22px;
   line-height: 1.27;
   text-transform: uppercase;
-  word-spacing: 25px;
+  word-spacing: 84%;
   padding: 4px 1px 0px 1px;
 }
 
@@ -230,6 +230,7 @@ main {
   line-height: 1.2;
   text-decoration-line: underline;
   text-transform: uppercase;
+  padding: 0 0 4px 0;
 }
 
 .card__text {
@@ -242,7 +243,7 @@ main {
 
 .lots__look-more-link {
   display: block;
-  margin: 32px 0 0 40px;
+  margin: 29px 0 0 40px;
   font-size: 20px;
   text-decoration-line: underline;
   text-underline-position: under;
@@ -347,3 +348,4 @@ main {
   width: 48px;
   height: auto;
 }
+
