@@ -2,7 +2,7 @@
 
 .header {
   display: grid;
-  padding: 95px 39px 92px 49px;
+  padding: 92px 39px 92px 49px;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   justify-content: space-evenly;
@@ -23,7 +23,6 @@
 
 .header__link {
   font-size: 113%;
-  font-family: Inter, Arial, sans-serif; 
 }
 
 .header__link_active {
@@ -40,6 +39,7 @@
 
 .header__logo-image {
   width: 93%;
+  padding: 5px 0px 0px 2px;
 }
 
 .header__address {
@@ -49,14 +49,12 @@
   justify-self: start;
   font-style: inherit;
   text-decoration: none;
-  font-family: Inter, Arial, sans-serif; 
 }
 
 .header__address__item {
   font-size: 18px;
   line-height: 1.35;
   text-underline-position: under;
-  font-family: Inter, Arial, sans-serif; 
 }
 
 /* menu */
@@ -146,14 +144,12 @@ main {
   text-transform: uppercase;
   word-spacing: 84%;
   padding: 4px 1px 0px 1px;
-  font-family: Inter, Arial, sans-serif; 
 }
 
 .bet-button {
   border: 1px #FFF solid;
   padding: 12px 32px 14px 30px;
   color: #FFF;
-  font-family: Inter, Arial, sans-serif;
   font-weight: normal;
   font-size: 22px;
   line-height: 1;
@@ -163,11 +159,11 @@ main {
 }
 
 .lots {
-    padding: 6px 24px 0 24px;
+    padding: 1px 24px 0 24px;
 }
 
 .lots__heading {
-  padding: 22px 0px 29px 40px;
+  padding: 27px 0px 30px 41px;
   font-weight: bold;
   font-size: 40px;
   line-height: 1;
@@ -192,7 +188,7 @@ main {
 }
 
 .card {
-   background-position: center;
+  background-position: center;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -200,7 +196,7 @@ main {
   gap: 30px;
   width: auto;
   height: 100%;
-  padding: 50px 40px;
+  padding: 49px 40px 47px 40px;
 }
 
 .card_type_film {
@@ -223,9 +219,7 @@ main {
   font-size: 22px;
   line-height: 1.2;
   text-decoration-line: underline;
-  text-transform: uppercase;
-  padding: 0 0 4px 0;
-  font-family: Inter, Arial, sans-serif; 
+  text-transform: uppercase;  
 }
 
 .card__text {
@@ -234,7 +228,7 @@ main {
   color: #FFF;
   font-size: 20px;
   line-height: 1.2;
-   font-family: Inter, Arial, sans-serif; 
+  padding-top: 5px;
 }
 
 .lots__look-more-link {
@@ -244,8 +238,8 @@ main {
   text-decoration-line: underline;
   text-underline-position: under;
   width: fit-content;
-  font-family: Inter, Arial, sans-serif; 
 }
+    /* about */
 
 .about {
   display: flex;
@@ -274,7 +268,7 @@ main {
 }
 
 .about__title {
-  padding: 102px 0 106px 22px;
+  padding: 104px 0 104px 22px;
   font-weight: bold;
   font-size: 40px;
   line-height: 1;
@@ -284,10 +278,9 @@ main {
 .about__text {
   display: flex;
   flex-direction: column;
-  gap: 27px;
+  gap: 24px;
   padding: 0px 31px 0px 22px;
   font-size: 20px;
-  font-family: Inter, Arial, sans-serif; 
 }
 
 /* footer */
@@ -295,19 +288,24 @@ main {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 212px 50px 87px 51px;
+  padding: 180px 50px 87px 51px;
+}
+
+.footer__menu {
+  padding: 1px 24px 0 0;
+  font-size: 108%;
+}
+.footer__address {
+  font-style:normal;
+  font-size: 128%;
+  justify-self: end;
+  font-style: inherit;
+  text-decoration: none;
 }
 
 .footer__menu-list {
   text-align: center;
   list-style: none;
-}
-
-.footer__menu-link {
-  font-size: 18px;
-  line-height: normal;
-  text-underline-position: under;
-  font-family: Inter, Arial, sans-serif; 
 }
 
 .footer__menu-link_active {
@@ -320,18 +318,10 @@ main {
   list-style: none;
 }
 
-.footer__address {
-  font-style:normal;
-  font-size: 18px;
-  justify-self: end;
-  font-style: inherit;
-  text-decoration: none;
-  font-family: Inter, Arial, sans-serif; 
-}
-
 .footer__social-list-item {
-  font-size: 18px;
-  line-height: 1.35;
+  font-size: 20px;
+  line-height: normal;
+  text-underline-position: under;
 }
  
 .footer__social-icon {
