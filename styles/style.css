@@ -47,7 +47,6 @@
   padding-left: 181px;
   font-size: 18px;
   justify-self: start;
-  font-style: inherit;
   text-decoration: none;
 }
 
@@ -300,7 +299,6 @@ main {
   font-size: 128%;
   justify-self: end;
   font-style: inherit;
-  text-decoration: none;
 }
 
 .footer__menu-list {
