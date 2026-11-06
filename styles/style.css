@@ -2,7 +2,7 @@
 
 .header {
   display: grid;
-  padding: 92px 39px 92px 49px;
+  padding: 93px 39px 91px 49px;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   justify-content: space-evenly;
@@ -22,7 +22,7 @@
 }
 
 .header__link {
-  font-size: 113%;
+  font-size: 114%;
 }
 
 .header__link_active {
@@ -43,11 +43,12 @@
 }
 
 .header__address {
-  font-style:normal;
-  padding-left: 181px;
-  font-size: 18px;
+  font-style: normal;
+  padding: 0 0 0 181px;
+  font-size: 20px;
   justify-self: start;
-  text-decoration: none;
+  letter-spacing: -5%;
+  line-height: 24px;
 }
 
 .header__address__item {
@@ -133,7 +134,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 114px 50px 43px 49px;
+  padding: 114px 51px 44px 49px;
 }
 
 .cover__description-text {
@@ -158,11 +159,11 @@ main {
 }
 
 .lots {
-    padding: 1px 24px 0 24px;
+    padding: 1px 24px 0px 24px;
 }
 
 .lots__heading {
-  padding: 27px 0px 30px 41px;
+  padding: 29px 0px 30px 40px;
   font-weight: bold;
   font-size: 40px;
   line-height: 1;
@@ -177,7 +178,8 @@ main {
 }
 
 .lots__card-list-item {
-  min-height: auto;
+  min-height: 596px;
+  width: 334px;
 }
 
 .card-link {
@@ -187,6 +189,7 @@ main {
 }
 
 .card {
+  background-size: cover;
   background-position: center;
   position: relative;
   display: flex;
@@ -195,7 +198,7 @@ main {
   gap: 30px;
   width: auto;
   height: 100%;
-  padding: 49px 40px 47px 40px;
+  padding: 48px 40px 47px 40px;
 }
 
 .card_type_film {
@@ -232,11 +235,12 @@ main {
 
 .lots__look-more-link {
   display: block;
-  margin: 29px 0 0 41px;
+  margin: 29px 0 0 40px;
   font-size: 21px;
   text-decoration-line: underline;
   text-underline-position: under;
   width: fit-content;
+  letter-spacing: -3%;
 }
     /* about */
 
@@ -267,7 +271,7 @@ main {
 }
 
 .about__title {
-  padding: 104px 0 104px 22px;
+  padding: 105px 0 104px 22px;
   font-weight: bold;
   font-size: 40px;
   line-height: 1;
@@ -280,6 +284,7 @@ main {
   gap: 24px;
   padding: 0px 31px 0px 22px;
   font-size: 20px;
+  line-height: 24px;
 }
 
 /* footer */
@@ -291,18 +296,20 @@ main {
 }
 
 .footer__menu {
-  padding: 1px 24px 0 0;
-  font-size: 108%;
+  font-size: 110%;
+  padding: 0 0 0 5px;
 }
 .footer__address {
   font-style:normal;
   font-size: 128%;
   justify-self: end;
+  letter-spacing: -6%;
 }
 
 .footer__menu-list {
   text-align: center;
   list-style: none;
+  letter-spacing: 2%;
 }
 
 .footer__menu-link_active {
